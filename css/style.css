@@ -1,0 +1,124 @@
+a{
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+    color: #fff !important;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #7f7c7c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7f7c7c;
+}
+
+li:hover{
+    background-color: #c00b0b !important;
+    color: #fff !important;
+    border-color: #c00b0b;
+}
+
+html,body{
+    scroll-behavior: auto;
+}
+
+#Home{
+    height: 90vh;
+    background-image:linear-gradient( rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)),url('../images/events-heavenly-header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.side-nav{
+    background-color: black;
+    height: 100vh;
+    width: 0px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    bottom: 0;
+    font-size: 20px;
+    
+}
+
+.home-body{
+    padding-top: 200px;
+}
+
+.home-body h1,p{
+    text-align: center;
+}
+
+.home-body h3{
+    margin-left: 10px;
+}
+
+.sidebaropen,.durationText h1{
+    color: #fff;
+    cursor: pointer;
+}
+
+.side-nav a:hover ,.side-nav i:hover{
+    color: #650f0f !important;
+}
+
+.side-nav i{
+    position: relative;
+    left: 80%;
+    cursor: pointer;
+}
+
+/* Duration */
+
+#Duration p {
+    display: none;
+    background-color: #CCCCCC;
+    margin: 0;
+}
+#Duration .parg {
+    display: block;
+}
+#Duration button {
+    font-size: 1.7rem;
+    color: #ffffff;
+    background-color: rgb(230, 130, 133);
+}
+/*  Details */
+#Details{
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.bg-details{
+    background-color: rgba(214, 46, 51, 0.6);
+}
+i {
+    color: #777777;
+  }
+
+  .brand {
+    border: #999 1px solid;
+    padding: 0.7rem;
+    cursor: pointer;
+  }
+
+  .brand:hover {
+    background-color: #d62e33;
+    color: #ffffff;
+  }
+  #Contact {
+    color: #777777;
+  }
